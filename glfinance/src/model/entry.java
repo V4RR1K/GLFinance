@@ -3,7 +3,7 @@ import java.util.Date;
 import java.text.Format;
 import java.text.SimpleDateFormat;
 
-public class entry {
+public class Entry {
     
     private String transaction_date;
     private String transaction_name;
@@ -11,7 +11,7 @@ public class entry {
     private category transaction_category;
     private subcategory transaction_subcategory;
 
-    public entry (String date, String name, double total, category c, subcategory s){
+    public Entry (String date, String name, double total, category c, subcategory s){
         if (date == null){
             Format f = new SimpleDateFormat("MM-dd-yy");
             this.transaction_date = f.format(new Date());
