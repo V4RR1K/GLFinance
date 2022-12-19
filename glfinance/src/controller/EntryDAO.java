@@ -6,6 +6,13 @@ import model.Entry;
 import model.category;
 import model.subcategory;
 
+/**
+ * EntryDAO sets up data persistence methods
+ * This is injected into the view tier
+ * 
+ * @author Greg Lynskey
+ * @date   12-19-22
+ */
 public interface EntryDAO {
 
     /**

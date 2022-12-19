@@ -6,6 +6,13 @@ import model.Entry;
 import model.category;
 import model.subcategory;
 
+/**
+ * EntryFileDAO implements defined behavior for EntryDAO interface
+ * This file uses a csv file to store the data
+ * 
+ * @author Greg Lynskey
+ * @date   12-19-22
+ */
 public class EntryFileDAO implements EntryDAO{
 
     @Override

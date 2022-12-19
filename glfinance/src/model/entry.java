@@ -3,6 +3,13 @@ import java.util.Date;
 import java.text.Format;
 import java.text.SimpleDateFormat;
 
+
+/**
+ * Entry defines the entry object
+ * 
+ * @author Greg Lynskey
+ * @date   12-18-22
+ */
 public class Entry {
     
     private String transaction_date;
